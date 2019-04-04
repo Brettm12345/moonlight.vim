@@ -88,6 +88,7 @@ let s:light_cyan = s:colors.light_cyan
 let s:white = s:colors.white
 let s:teal = s:colors.teal
 let s:black = s:colors.black
+let s:variable_grey = s:colors.variable_grey
 let s:visual_black = s:colors.visual_black " Black out selected text in 16-color visual mode
 let s:comment_grey = s:colors.comment_grey
 let s:gutter_fg_grey = s:colors.gutter_fg_grey
