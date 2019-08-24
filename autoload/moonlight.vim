@@ -16,6 +16,7 @@ let s:colors = {
       \ "light_cyan": get(s:overrides, "cyan", { "gui": "#0ec3e3", "cterm": "38", "cterm16": "6" }),
       \ "white": get(s:overrides, "white", { "gui": "#afbeee", "cterm": "145", "cterm16": "7" }),
       \ "black": get(s:overrides, "black", { "gui": "#212337", "cterm": "235", "cterm16": "0" }),
+      \ "statusline": get(s:overrides, "statusline", { "gui": "#161a2a", "cterm": "235", "cterm16": "0" }),
       \ "visual_black": get(s:overrides, "visual_black", { "gui": "NONE", "cterm": "NONE", "cterm16": "0" }),
       \ "variable_grey": get(s:overrides, "variable_grey", { "gui": "#cdd6f5", "cterm": "59", "cterm16": "15"}),
       \ "comment_grey": get(s:overrides, "comment_grey", { "gui": "#7e8eda", "cterm": "59", "cterm16": "15" }),
