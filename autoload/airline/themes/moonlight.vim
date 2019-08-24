@@ -22,7 +22,7 @@ let s:airline_error = [s:colors.black.gui, s:colors.red.gui, s:colors.black.cter
 " ---
 " Normal
 
-let s:airline_a_normal = [s:colors.black.gui, s:colors.blue_purple.gui, s:colors.black.cterm, s:colors.blue_purple.cterm]
+let s:airline_a_normal = [s:colors.black.gui, s:colors.purple.gui, s:colors.black.cterm, s:colors.purple.cterm]
 let s:airline_b_normal = [s:colors.white.gui, s:colors.white_mask_3.gui, s:colors.white.cterm, s:colors.white_mask_3.cterm]
 let s:airline_c_normal = [s:colors.white.gui, s:colors.white_mask_1.gui, s:colors.white.cterm, s:colors.white_mask_1.cterm, s:wrap_opts(['italic'])]
 let g:airline#themes#moonlight#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
