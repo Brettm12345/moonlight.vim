@@ -25,6 +25,9 @@ let s:colors = {
       \ "menu_grey": get(s:overrides, "menu_grey", { "gui": "#3c4361", "cterm": "237", "cterm16": "8" }),
       \ "special_grey": get(s:overrides, "special_grey", { "gui": "#3c4361", "cterm": "238", "cterm16": "15" }),
       \ "vertsplit": get(s:overrides, "vertsplit", { "gui": "#161a2a", "cterm": "59", "cterm16": "15" }),
+      \ "white_mask_1": get(s:overrides, "white_mask_1", { "gui": "#333747", "cterm": "237", "cterm16": "15" }),
+      \ "white_mask_3": get(s:overrides, "white_mask_3", { "gui": "#474b59", "cterm": "238", "cterm16": "15" }),
+      \ "white_mask_11": get(s:overrides, "white_mask_11", { "gui": "#989aa2", "cterm": "238", "cterm16": "15" })
       \}
 
 function! moonlight#GetColors()

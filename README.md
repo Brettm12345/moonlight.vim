@@ -1,4 +1,4 @@
-![palenight.vim][screenshot]
+![moonlight.vim][screenshot]
 
 A dark color scheme for Vim/Neovim based off the [Material Pale Night][materialLink] color scheme. Much of the work is based on the lovely [onedark.vim][onedark] color scheme.
 
@@ -6,7 +6,7 @@ A dark color scheme for Vim/Neovim based off the [Material Pale Night][materialL
 Using [vim-plug][vimplug] (modify this to work with your Vim package manager of choice):
 
 ```vim
-Plug 'drewtempelmeyer/palenight.vim'
+Plug 'Brettm12345/moonlight.vim'
 ```
 
 ## Usage
@@ -15,13 +15,13 @@ In your wonderfully organized Vim (`~/.vimrc`) or Neovim (`.config/nvim/init.vim
 
 ```vim
 set background=dark
-colorscheme palenight
+colorscheme moonlight
 ```
 
 To configure lightline, add the following line:
 
 ```vim
-let g:lightline.colorscheme = 'palenight'
+let g:lightline.colorscheme = 'moonlight'
 ```
 
 ### True Colors
@@ -48,7 +48,7 @@ Italics are a fantastic way to improve the appearance of your code. Italics will
 
 ```vim
 " Italics for my favorite color scheme
-let g:palenight_terminal_italics=1
+let g:moonlight_terminal_italics=1
 ```
 
 ## Contributors
