@@ -56,7 +56,7 @@ let g:airline#themes#moonlight#palette.insert_modified.airline_error = g:airline
 " ---
 " Replace
 
-let s:airline_a_replace = [s:colors.light_red.gui, s:colors.back.gui, s:colors.light_red.cterm, s:colors.black.cterm]
+let s:airline_a_replace = [s:colors.light_red.gui, s:colors.black.gui, s:colors.light_red.cterm, s:colors.black.cterm]
 let s:airline_b_replace = s:airline_b_normal
 let s:airline_c_replace = s:airline_c_normal
 let g:airline#themes#moonlight#palette.replace = airline#themes#generate_color_map(s:airline_a_replace, s:airline_b_replace, s:airline_c_replace)
