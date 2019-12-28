@@ -1,4 +1,3 @@
-" vim:fdm=marker
 " Vim Color File
 " Name:       moonlight.vim
 " Maintainer: https://github.com/drewtempelmeyer/moonlight.vim
@@ -207,22 +206,22 @@ call s:h("shFunctionKey", { "fg": s:purple })
 call s:h("cssAttrComma", { "fg": s:purple })
 call s:h("cssAttributeSelector", { "fg": s:green })
 call s:h("cssBraces", { "fg": s:white })
-call s:h("cssClassName", { "fg": s:blue })
-call s:h("cssClassNameDot", { "fg": s:blue })
+call s:h("cssClassName", { "fg": s:yellow })
+call s:h("cssClassNameDot", { "fg": s:cyan })
 call s:h("cssDefinition", { "fg": s:purple })
 call s:h("cssFontAttr", { "fg": s:purple })
 call s:h("cssFontDescriptor", { "fg": s:teal })
 call s:h("cssFunctionName", { "fg": s:light_blue })
-call s:h("cssIdentifier", { "fg": s:blue })
+call s:h("cssIdentifier", { "fg": s:purple })
 call s:h("cssImportant", { "fg": s:purple })
 call s:h("cssInclude", { "fg": s:white })
 call s:h("cssIncludeKeyword", { "fg": s:purple })
 call s:h("cssMediaType", { "fg": s:red })
 call s:h("cssProp", { "fg": s:blue })
-call s:h("cssPseudoClassId", { "fg": s:orange })
+call s:h("cssPseudoClassId", { "fg": s:purple })
 call s:h("cssSelectorOp", { "fg": s:purple })
 call s:h("cssSelectorOp2", { "fg": s:purple })
-call s:h("cssTagName", { "fg": s:red })
+call s:h("cssTagName", { "fg": s:light_red })
 
 " Go
 call s:h("goDeclaration", { "fg": s:purple })
@@ -401,7 +400,7 @@ call s:h("cssUnitDecorators", { "fg": s:yellow })
 " Sass
 " https://github.com/tpope/vim-haml
 call s:h("sassAmpersand", { "fg": s:red })
-call s:h("sassClass", { "fg": s:orange })
+call s:h("sassClass", { "fg": s:yellow })
 call s:h("sassControl", { "fg": s:purple })
 call s:h("sassExtend", { "fg": s:purple })
 call s:h("sassFor", { "fg": s:white })
