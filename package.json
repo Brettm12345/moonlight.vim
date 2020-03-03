@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "estilo": "^1.5.0"
+  },
+  "scripts": {
+    "render": "estilo render"
+  }
+}

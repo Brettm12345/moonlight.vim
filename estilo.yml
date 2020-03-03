@@ -1,0 +1,10 @@
+name: "moonlight.vim"
+version: "1.0.0"
+license: "MIT"
+author: ""
+url: ""
+description: ""
+colorschemes:
+  - name: moonlight
+    background: "dark"
+    palette: moonlight
